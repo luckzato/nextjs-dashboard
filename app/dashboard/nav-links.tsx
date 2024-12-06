@@ -14,7 +14,7 @@ import {
     const pathname = usePathname();
     return (
       <>
-        {links.map((link) => {
+        {NavLinks.map((link) => {
           const LinkIcon = link.icon;
           return (
             <Link
